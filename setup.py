@@ -12,7 +12,7 @@ sys.path.pop(0)
 
 
 with open('README.rst') as fp:
-    README = fp.read()
+    README = fp.read(endcoding="utf-8")
 
 
 setup(
