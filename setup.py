@@ -11,8 +11,8 @@ VERSION = __version__
 sys.path.pop(0)
 
 
-with open('README.rst') as fp:
-    README = fp.read(endcoding="utf-8")
+with open('README.md',encoding="utf-8") as fp:
+    README = fp.read()
 
 
 setup(
